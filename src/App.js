@@ -9,7 +9,7 @@ function App() {
       <div className="App font-Inter" >
         <Home/>
       </div>
-      <div class="fixed left-0 right-0 top-0 bottom-0 bg-zinc-950 -z-50"></div>
+      <div class="fixed left-0 right-0 top-0 -bottom-full bg-zinc-950 -z-50"></div>
     </div>
   );
 }
