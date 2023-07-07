@@ -6,11 +6,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Montserrat: ["Montserrat"],
-        Playfair: ["Playfair Display"],
+        Inter: ["Inter"],
         SpaceGrotesk: ["Space Grotesk"],
-        Unbounded: ["Unbounded"],
+        Mono: ["Jetbrains Mono"],
       },
+      transitionTimingFunction:
+      {
+        'inout-expo': 'cubic-bezier(0.87, 0, 0.13, 1)',
+        'out-expo': 'cubic-bezier(0.16, 1, 0.3, 1)'
+      }
     },
   },
   plugins: [],
